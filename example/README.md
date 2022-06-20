@@ -1,4 +1,4 @@
-# npm-react-noticefaq
+# react-noticefaq
 This package provides Notice Component to render [Notice.studio](https://notice.studio/) projects in React applications.
 
 ## Notice - FAQ, Blog & Documentation
