@@ -1,10 +1,9 @@
 import React from 'react'
+import 'react-notice-faq/dist/index.css'
+import Notice from 'react-notice-faq';
 
-import { ExampleComponent } from 'react-faq-notice'
-import 'react-faq-notice/dist/index.css'
-
-const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+const App = (props) => 
+{
+  return <Notice project-id={props["project-id"]}/>
 }
-
 export default App
