@@ -21,7 +21,7 @@ function Notice(props)
 		}			
     }, [])
   return (
-    <div className="notice-target-container" project-id={(props.hasOwnProperty("project-id"))?props["project-id"]:""} ></div>
+    <div className="notice-target-container" project-id={(props.hasOwnProperty("projectid"))?props["projectid"]:""} ></div>
   );
 }
 

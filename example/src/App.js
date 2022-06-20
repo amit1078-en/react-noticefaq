@@ -4,6 +4,6 @@ import Notice from 'react-notice-faq';
 
 const App = (props) => 
 {
-  return <Notice project-id={props["project-id"]}/>
+  return <Notice project-id={props["projectid"]}/>
 }
 export default App
